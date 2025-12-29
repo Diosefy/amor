@@ -99,11 +99,11 @@ canvas.height = window.innerHeight;
 const symbols = ['❤️', '🌹'];
 const drops = [];
 
-for (let i = 0; i < 50; i++) {
+for (let i = 0; i < 35; i++) {
   drops.push({
     x: Math.random() * canvas.width,
     y: Math.random() * canvas.height,
-    speed: 1 + Math.random() * 3,
+    speed: 0.5 + Math.random() * 1,
     symbol: symbols[Math.floor(Math.random() * symbols.length)]
   });
 }
