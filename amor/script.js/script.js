@@ -65,7 +65,7 @@ function handleSwipe() {
 }
 
 /* ===== CONTADOR ===== */
-const startDate = new Date(2026, 8, 8, 0, 0, 0);
+const startDate = new Date(2026, 7, 8, 0, 0, 0);
 
 function updateCounter() {
   const now = new Date();
